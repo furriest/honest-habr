@@ -21,7 +21,7 @@ AMVERA_API_TOKEN = os.getenv("AMVERA_API_TOKEN")
 AMVERA_ENDPOINT = os.getenv("AMVERA_ENDPOINT", "https://kong-proxy.yc.amvera.ru/api/v1/models/deepseek")
 
 PAGE_SIZE = 6
-MAX_STORE = 60
+MAX_STORE = int(os.getenv("MAX_STORE", "150"))
 REFRESH_SECONDS = int(os.getenv("REFRESH_SECONDS", "30"))
 
 AI_WORKERS = int(os.getenv("AI_WORKERS", "4"))
