@@ -1,0 +1,12 @@
+*.json
+*.token
+*.xlsx
+*.xlsm
+*.tmp
+*.spec
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env

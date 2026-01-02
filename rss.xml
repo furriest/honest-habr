@@ -1,0 +1,586 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Честная ИИ-лента Хабра</title>
+    <link>https://habr.com/ru/articles/</link>
+    <description>Честная ИИ-лента Хабра</description>
+    <language>ru</language>
+    <generator>habr.com</generator>
+    <pubDate>Fri, 02 Jan 2026 14:42:03 GMT</pubDate>
+    <image>
+      <link>https://habr.com/ru/</link>
+      <url>https://habrastorage.org/webt/ym/el/wk/ymelwk3zy1gawz4nkejl_-ammtc.png</url>
+      <title>Хабр</title>
+    </image>
+    <item>
+      <title>Пишем про Telegram Mini App, потому что в нём есть модное слово биометрия</title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/amvera/articles/982428/</guid>
+      <link>https://habr.com/ru/companies/amvera/articles/982428/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982428</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/b23/5ef/b94/b235efb94044789dbb84ca540e8577b4.jpg" /&gt;&lt;p&gt;Всем привет! В этой статье я собрал практические фишки работы с Telegram Mini App: что здесь реально проще, чем в обычном вебе, какие возможности Telegram дает из коробки, и что чаще всего вызывает затруднения при разработке.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982428/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982428#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 14:20:57 GMT</pubDate>
+      <dc:creator>ovchinnikovproger (Amvera)</dc:creator>
+      <category>telegram miniapp</category>
+      <category>telegram webapp</category>
+      <category>https webapp</category>
+      <category>webapp боты</category>
+      <category>miniapps телеграм</category>
+      <category>mini app</category>
+      <category>mini apps telegram</category>
+      <category>web app</category>
+      <category>web app telegram</category>
+      <category>tg web app</category>
+    </item>
+    <item>
+      <title>Неизвестный хакер обогнал владельца по скорости использования сервера в личных целях, майнит Monero вместо него</title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/ruvds/articles/980892/</guid>
+      <link>https://habr.com/ru/companies/ruvds/articles/980892/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=980892</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/a3c/324/a56/a3c324a567d5aef88d38019fa9f026f5.jpeg" /&gt;&lt;p&gt;Недавно моё утро началось с такого вот прекрасного e-mail от Hetzner:&lt;/p&gt;&lt;p&gt;&lt;em&gt;Уважаемый, м-р Джей Сандерс,&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;У нас есть свидетельства того, что с вашего сервера была произведена атака. Пожалуйста, примите необходимые меры для решения проблемы и избежания подобного в будущем.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Также просим вас прислать краткое пояснение с описанием того, как такое могло произойти, и что вы собираетесь в этом отношении предпринять. Если последующие шаги не будут успешно выполнены, ваш сервер может быть заблокирован в любой момент после 2025-12-17 12:46:15 +0100.&lt;/em&gt; &lt;/p&gt;&lt;p&gt;К письму прилагалось подтверждение того, что с моего сервера было выполнено сканирование некоего IP-диапазона в Таиланде. Отлично. Никакого вам «Здравствуйте», а лишь заявление о злоупотреблении и угроза отключить всю инфраструктуру через 4 часа.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/980892/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=980892#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 13:01:33 GMT</pubDate>
+      <dc:creator>Bright_Translate (RUVDS.com)</dc:creator>
+      <category>ruvds_перевод</category>
+      <category>майнинг</category>
+      <category>monero</category>
+      <category>криптовалюта</category>
+      <category>docker</category>
+      <category>контейнеризвация</category>
+      <category>информационная безопасность</category>
+      <category>уязвимости</category>
+      <category>umami</category>
+    </item>
+    <item>
+      <title>Программистские проблемы первого мира: кто-то встретил ограничения</title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/981042/</guid>
+      <link>https://habr.com/ru/articles/981042/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=981042</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/ba4/2ad/c75/ba42adc75e4a70d64e2f161fcfc2d123.png" /&gt;&lt;p&gt;В языке C++ перегрузки функций и шаблонов исторически были и остаются мощным инструментом для выражения различных реализаций одного и того же интерфейса. Многим  перегрузки видятся как удобный способ дать одно имя разным функциям, но на практике понимание того, как компилятор выбирает нужную перегрузку, может стать источником ошибок и недоразумений. Компилятор же руководствуется сложным набором правил, которые мы ему предоставили, учитывает не только типы аргументов, но и порядок специализаций, преобразования типов, &lt;code&gt;const&lt;/code&gt;-квалификаторы, шаблонные параметры и многое другое. А ошибки, возникающие при перегрузках, часто трудно диагностировать, поскольку сообщение компилятора может ссылаться на глубоко вложенные детали реализации вместо очевидного исходного кода. Об этом была предыдущая статья...&lt;/p&gt;&lt;p&gt;С введением концептов и ограничений (&lt;code&gt;requires&lt;/code&gt;) язык получил возможность управлять этой сложностью на уровне интерфейса. Вместо того чтобы надеяться на магию перегрузки и изощрённые трюки вроде SFINAE, мы теперь можем прямо выражать намерения: какие свойства должен иметь тип, чтобы функция или шаблон были корректны, что позволило перейти от «магии разрешения перегрузок» к декларативному описанию требований к типам.&lt;/p&gt;&lt;p&gt;Давайте теперь поговорим о том, что именно делают ограничения (&lt;code&gt;requires)&lt;/code&gt; в современном C++ и почему появление этого механизма стало таким важным шагом в развитии шаблоннов. Тут надо сделать немного шаг в сторону и вспомнить, что исторически шаблоны в C++ были мощным, но довольно опасным инструментом, еще одним языком в языке, на котором можно было сделать почти всё, было бы желание. В итоге компилятор позволял подставить или подхачить любой тип, а проверка того, «подходит ли он на самом деле», откладывалась до момента инстанцирования, что нередко приводило к ошибке далеко от места вызова, а сообщение о непосредственном месте ошибки превращалось в многостраничный отчёт о внутренней кухне компилятора и как он работает с шаблонами. &lt;code&gt;requires&lt;/code&gt; меняют эту модель, позволяя описывать ожидания от типа явно и прямо в объявлении функции или класса. &lt;/p&gt; &lt;a href="https://habr.com/ru/articles/981042/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=981042#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 11:58:22 GMT</pubDate>
+      <dc:creator>dalerank</dc:creator>
+      <category>программирование</category>
+      <category>с++</category>
+      <category>разработка игр</category>
+    </item>
+    <item>
+      <title>Старые богачи больше не колют ботокс, теперь у них есть модная биохакерская альтернатива</title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/geltek/articles/982118/</guid>
+      <link>https://habr.com/ru/companies/geltek/articles/982118/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982118</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/b24/c23/0fa/b24c230fa09515ca2d36a894ac36945f.jpeg" /&gt;&lt;p&gt;Когда вы старый политик или звезда, то раньше получали инъекцию ботокса и каменное или «восковое» лицо. Так было лет 20. Теперь всё намного лучше, и появился ацетил гексапептид-8, он же — аргирелин.&lt;/p&gt;&lt;p&gt;Ботулотоксин типа А блокирует передачу нервного импульса к мышце и временно её парализует. Если мышца обездвижена долго, то может случиться атрофия и истончение мышечного волокна.&lt;/p&gt;&lt;p&gt;Собственно, поскольку деньги там огромные, пришли хакеры-биохимики и начали взламывать перенос нервного сигнала. Уязвимость нашлась довольно странная, и на базе неё сейчас строится сразу несколько разных вариантов терапии шрамов. Ну и заодно — морщин.&lt;/p&gt;&lt;p&gt;Поэтому добро пожаловать в историю того, как правильно ломать нервы.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982118/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982118#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 11:24:29 GMT</pubDate>
+      <dc:creator>Diana_Geltek1 (Гельтек-Медика)</dc:creator>
+      <category>аргирелин</category>
+      <category>ботокс</category>
+      <category>пептиды</category>
+      <category>синапс</category>
+      <category>комплекс SNARE</category>
+      <category>ацетилхолин</category>
+      <category>белок SNAP-25</category>
+      <category>биохимия</category>
+      <category>морщины</category>
+      <category>сыворотка</category>
+    </item>
+    <item>
+      <title>Нашёл новый способ поломаться с РАГ-ами, представляю вам Ragex</title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/982418/</guid>
+      <link>https://habr.com/ru/articles/982418/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982418</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/476/417/320/476417320ece03fa14fa5312c437b404.png" /&gt;&lt;p&gt;Я поломался, поломался&amp;nbsp;— и поломался на осколки. Признаю́: железные помощники &lt;em&gt;Т9&lt;/em&gt; действительно могут приносить пользу в разработке. Единственное, что мне не нравилось&amp;nbsp;— то, что весь проект большой и хорошо натренированной модели не скормишь, а значит&amp;nbsp;— неизбежны потери контекста, размывание смыслов и джойсовские галлюцинации.&lt;/p&gt;&lt;p&gt;Я уже давно понял: если мне нужно, чтобы что-то было сделано хорошо,&amp;nbsp;— делегирование отпадает, придётся брать в руки молоток самому. Это касается любых жизненных аспектов: варки борща, замены сантехники, перевода Эдгара Аллана По или Антонио Мачадо на русский, или, там, программирования.&lt;/p&gt;&lt;p&gt;Когда БЯМ научились подключать сторонние MCP-сервера, произошел качественный скачок. Теперь не нужно файнтьюнить модель, можно файнтьюнить буковку «&lt;strong&gt;R&lt;/strong&gt;» из акронима «&lt;strong&gt;&lt;a href="https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F,_%D0%B4%D0%BE%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%BE%D0%BC" rel="noopener noreferrer nofollow"&gt;R&lt;/a&gt;&lt;/strong&gt;&lt;a href="https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F,_%D0%B4%D0%BE%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%BE%D0%BC" rel="noopener noreferrer nofollow"&gt;AG&lt;/a&gt;». Я-то лучше знаю, как правильно извлекать смыслы из моего личного контента. Если речь про код&amp;nbsp;— лучше всего искать правду в &lt;a href="https://ru.wikipedia.org/wiki/%D0%90%D0%B1%D1%81%D1%82%D1%80%D0%B0%D0%BA%D1%82%D0%BD%D0%BE%D0%B5_%D1%81%D0%B8%D0%BD%D1%82%D0%B0%D0%BA%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE" rel="noopener noreferrer nofollow"&gt;AST&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Так и был зачат &lt;strong&gt;Ragex&lt;/strong&gt; — MCP-сервер для семантического анализа кодовых баз с элементами чёрной магии. Проект, понятно, написан на &lt;em&gt;Elixir&lt;/em&gt;, потому что ну а на чем еще?&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982418/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982418#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 11:17:41 GMT</pubDate>
+      <dc:creator>cupraer</dc:creator>
+      <category>mcp-server</category>
+      <category>mcptools</category>
+      <category>mcp-servers</category>
+      <category>mcp-сервер</category>
+      <category>mcp server</category>
+      <category>rag</category>
+      <category>rag pipeline</category>
+      <category>rag ai</category>
+    </item>
+    <item>
+      <title>Технологическая компания, которая была крутой раньше, но потом умерла от старости и неправильного менеджмента</title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/onlinepatent/articles/982416/</guid>
+      <link>https://habr.com/ru/companies/onlinepatent/articles/982416/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982416</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/1b5/82a/639/1b582a6394f8715bf14cc746a54cd5ad.jpg" /&gt;&lt;p&gt;Компания Calcomp была основана в 1952 году в Калифорнии. Она прославилась как один из ведущих производителей плоттеров и других устройств для автоматизированного проектирования и графики. В 70-80-х Calcomp занимала лидирующие позиции на рынке и ассоциировалась с передовыми технологиями того времени. Рассказываем в нашей статье, почему же производитель электроники не смог пережить 90-ые.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982416/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982416#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 11:06:39 GMT</pubDate>
+      <dc:creator>letsweb (Online patent)</dc:creator>
+      <category>история it</category>
+      <category>плоттер</category>
+      <category>плоттеры</category>
+      <category>патенты</category>
+      <category>история провала</category>
+    </item>
+    <item>
+      <title>Онбординг без стресса, или Как нас заставляют думать, что наше corporation не такой уж ад</title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/982414/</guid>
+      <link>https://habr.com/ru/articles/982414/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982414</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/00b/d08/076/00bd0807614da60267aac2a6be513a53.png" /&gt;&lt;p&gt;Я возглавляю стрим Компьют (Вычислительные Ресурсы, говоря проще) в&amp;nbsp;быстрорастущем&amp;nbsp;облачном провайдере с&amp;nbsp;осени 2024&amp;nbsp;года. Мы (и стрим Сетей) отвечаем на&amp;nbsp;облачные примитивы, на&amp;nbsp;которых строятся буквально все другие облачные продукты. За&amp;nbsp;это время стрим столкнулся с&amp;nbsp;настоящими вызовами, некоторые процессы пришлось выстраивать.&lt;/p&gt;&lt;p&gt;Когда первый раз мне HR`ы сообщили, что&amp;nbsp;наш оффер принят, я столкнулся с&amp;nbsp;тем, что&amp;nbsp;хоть про&amp;nbsp;онбординг‑адаптацию и говорят, конкретных гайдов и статей нет. На&amp;nbsp;мысль о&amp;nbsp;том, что «что‑то надо с&amp;nbsp;этим делать» меня натолкнула коллега с&amp;nbsp;другого направления, которая постоянно жаловалась на&amp;nbsp;трудности адаптации и отсутствие информации. У&amp;nbsp;нас, конечно, информации&amp;nbsp;было достаточно в&amp;nbsp;конфлюенсе, но, она не&amp;nbsp;была структурирована для&amp;nbsp;быстрого погружения нового сотрудника. Это&amp;nbsp;был тревожный звоночек. Мы тратили месяцы на&amp;nbsp;сложный технический отбор (воронка в 2-3% от&amp;nbsp;кандидатов), находили сильных специалистов, а&amp;nbsp;затем рисковали потерять их в&amp;nbsp;первые&amp;nbsp;же недели из‑за некачественных процессов и информационного голода.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Я исходил из&amp;nbsp;простой мысли:&lt;/strong&gt;&amp;nbsp;высокий порог входа в&amp;nbsp;наш продукт&amp;nbsp;— данность. Облака, Kotlin, сложная кодовая база&amp;nbsp;— от&amp;nbsp;этого никуда не&amp;nbsp;деться. Значит, нельзя позволить, чтобы к ней добавился хаос в процессах. А задача лида — построить чёткий маршрут, по которому новичок сможет комфортно присоединиться к проекту.&lt;/p&gt;&lt;p&gt;В этой статье я подробно расскажу, как мы превратили груду ссылок в чёткую систему ввода новых людей в проект. Этот подход уже используют другие команды. Это не абстрактные рассуждения, а готовое решение, чтобы&amp;nbsp;&lt;strong&gt;новичок не терялся&lt;/strong&gt;&amp;nbsp;и&amp;nbsp;&lt;strong&gt;быстрее включался в работу&lt;/strong&gt;.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982414/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982414#habracut"&gt;на борт!&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 11:03:21 GMT</pubDate>
+      <dc:creator>shadowphoenix</dc:creator>
+      <category>backend</category>
+      <category>techlead</category>
+      <category>teamlead</category>
+      <category>onboarding</category>
+      <category>onbording</category>
+      <category>адаптация сотрудников</category>
+      <category>адаптация персонала</category>
+      <category>адаптация разработчиков</category>
+      <category>тимлид</category>
+      <category>тимлидство</category>
+    </item>
+    <item>
+      <title>ИИ придёт и не отменит наших любимых продактов, спойлер</title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/982410/</guid>
+      <link>https://habr.com/ru/articles/982410/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982410</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/e6b/c8b/081/e6bc8b0813845790f420f1c47a2997fd.jpg" /&gt;&lt;p&gt;&lt;strong&gt;ИИ отменяет продактов или наоборот делает их профессией №1?&amp;nbsp;&lt;/strong&gt;Спор Булдаковой и Эндрю Ына + вывод для джунов и лидов.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982410/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982410#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 10:49:17 GMT</pubDate>
+      <dc:creator>N3VERZzz</dc:creator>
+      <category>product management</category>
+      <category>product manager</category>
+      <category>ии</category>
+      <category>автоматизация</category>
+      <category>карьера</category>
+      <category>карьера в it</category>
+      <category>продакт-менеджер</category>
+      <category>продакт овнер</category>
+    </item>
+    <item>
+      <title>Маленький гений решает большую проблему, которой никто не страдал, с помощью технологий, о которых все забыли.</title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/981048/</guid>
+      <link>https://habr.com/ru/articles/981048/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=981048</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/17b/7d7/ae6/17b7d7ae6f10fc0ad87fb65e84aa0952.jpg" /&gt;&lt;p&gt;Некоторое время назад я обнаружил, что мой доселе чистый и светлый интернет стал подвержен проблеме, которую лично я охарактеризовал как "подзатупы". В данной статье описано, как мне удалось решить данную проблему "малой кровью" путем разработки простого, но от того не менее эффективного решения для репликации IP-пакетов через разные интернет-каналы.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/981048/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=981048#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 10:44:37 GMT</pubDate>
+      <dc:creator>vdudouyt</dc:creator>
+      <category>rust</category>
+      <category>linux</category>
+      <category>tun</category>
+      <category>tap</category>
+    </item>
+    <item>
+      <title>Тонкая настройка PostgreSQL: потому что дефолтные значения не оптимальны, но кто ж их знает точно</title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/982406/</guid>
+      <link>https://habr.com/ru/articles/982406/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982406</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/e68/7bd/434/e687bd4349d338b20514350626d92087.webp" /&gt;&lt;p&gt;В мире PostgreSQL, как и в автоспорте, не существует единой идеальной стратегии для всех трасс. Выбор интервала контрольных точек (&lt;strong&gt;checkpoint_timeout&lt;/strong&gt;) — это пит-стоп: можно заезжать часто для максимальной скорости на прямых, но рискуя потерять время на самом заезде, или реже — для стабильного и предсказуемого ритма всей гонки. Всё зависит от типа «трассы» — характера нагрузки на вашу базу данных.  &lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="https://dzen.ru/away?to=https%3A%2F%2Fgithub.com%2Fpg-expecto%2Fpg_expecto" rel="noopener noreferrer nofollow"&gt;GitHub -&amp;nbsp;&lt;/a&gt;&lt;/strong&gt;&lt;a href="https://dzen.ru/away?to=https%3A%2F%2Fgithub.com%2Fpg-expecto%2Fpg_expecto" rel="noopener noreferrer nofollow"&gt;Комплекс pg_expecto для статистического анализа производительности и нагрузочного тестирования СУБД PostgreSQL&lt;/a&gt;  &lt;/p&gt;&lt;p&gt;&lt;a href="https://dzen.ru/a/aUzwLx6cUXU851wo" rel="noopener noreferrer nofollow"&gt;Глоссарий терминов | Postgres DBA | Дзен&lt;/a&gt;  &lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982406/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982406#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 10:15:47 GMT</pubDate>
+      <dc:creator>pg_expecto</dc:creator>
+      <category>postgresql</category>
+      <category>postgresql performance</category>
+      <category>checkpoint</category>
+      <category>нагрузочное тестирование</category>
+      <category>статистический анализ</category>
+    </item>
+    <item>
+      <title>Американский фондовый рынок снова готовит нам сюрприз, как в 1929, но теперь с искусственным интеллектом</title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/bothub/articles/982404/</guid>
+      <link>https://habr.com/ru/companies/bothub/articles/982404/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982404</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/b2d/3ce/342/b2d3ce3427c1a71b06d08737bb1a1a02.png" /&gt;&lt;p&gt;&lt;em&gt;Оценка американского фондового рынка сегодня выше, чем перед крахом 1929 года. Что это значит для всех нас?&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Financial Times опубликовала материал, который вы, возможно, должны были видеть повсюду, но почему-то не видели.&lt;/p&gt;&lt;p&gt;Оценка американского фондового рынка сегодня выше, чем была перед крахом Уолл-стрит в 1929 году.&lt;/p&gt;&lt;p&gt;Просто осознайте это на секунду.&lt;/p&gt;&lt;p&gt;Выше, чем в 1929-м. Выше, чем в 2008-м. На уровне пузыря доткомов.&lt;/p&gt;&lt;p&gt;И это подтверждается не одним показателем, а сразу несколькими - коэффициентом «цена/прибыль», соотношением капитализации и ВВП. По всем параметрам мы на исторических высотах.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982404/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982404#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 10:12:19 GMT</pubDate>
+      <dc:creator>cognitronn (BotHub)</dc:creator>
+      <category>ии</category>
+      <category>нейросети</category>
+      <category>машинное+обучение</category>
+      <category>ai</category>
+      <category>openai</category>
+      <category>google</category>
+      <category>gemini</category>
+    </item>
+    <item>
+      <title>Пальмовый след: журналисты не могут отличить сливочное масло от маргарина, но готовы рассказать вам правду о молочной промышленности</title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/unn/articles/982398/</guid>
+      <link>https://habr.com/ru/companies/unn/articles/982398/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982398</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/31b/e55/4c0/31be554c0dc42e1e7942a8e50269174d.jpeg" /&gt;&lt;p&gt;С Новым годом, дорогие друзья! Не знаем, как у вас, но у нашей команды на столах мы насчитали: салаты с майонезом, Наполеон и хачапури из слоёного теста на маргарине, сыры всех видов и марок, включая плавленые и лёгкие, тарталетки на спреде и песочные пирожные на сливочном масле, заводской хлеб и выпечку всех видов, конфеты, вафли, а&amp;nbsp;ещё бутерброды с&amp;nbsp;икрой, на&amp;nbsp;которые&amp;nbsp;было намазано ТОЧНО сливочное масло, из‑под коровы, забранное у&amp;nbsp;хозяйки не&amp;nbsp;в&amp;nbsp;очень аккуратной упаковке, а&amp;nbsp;в&amp;nbsp;пергамента в&amp;nbsp;мятом не&amp;nbsp;особо эстетичном, но&amp;nbsp;вкусном комке. А&amp;nbsp;остальное&amp;nbsp;— НЕ&amp;nbsp;ТОЧНО? Что&amp;nbsp;с&amp;nbsp;мифами о&amp;nbsp;пальмовом жире в&amp;nbsp;начале 2026&amp;nbsp;года? Разбираемся с&amp;nbsp;аппетитом.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982398/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982398#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 10:05:14 GMT</pubDate>
+      <dc:creator>LiudmilaMakarovaNNGU (ННГУ им. Н.И. Лобачевского)</dc:creator>
+      <category>пальмовое масло</category>
+      <category>ннгу</category>
+      <category>студфактчек</category>
+    </item>
+    <item>
+      <title>Дилетант пробрался на сервера Sora, потому что OpenAI забыл закрыть заднюю дверь</title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/982402/</guid>
+      <link>https://habr.com/ru/articles/982402/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982402</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/90a/678/59a/90a67859a9cdf92ed8e36e52332da9c4.png" /&gt;&lt;p&gt;Я не такой частый юзер Sora, но когда увидел, что люди ПРОДАЮТ доступ к видео без водяных знаков — сначала подумал, что они сделали машинное обучение и фотошопом каждый кадр обрабатывают. Но когда я попробовал - результат был готов за 1 секунду. В тот момент я осознал: ЗНАЧИТ ВИДЕО ЛЕЖАТ НА СЕРВЕРАХ. Во мне проснулся инстинкт хакера, и я начал искать ДЫРУ.&lt;/p&gt;&lt;p&gt;Первым делом я полез изучать вкладку Network, пробуя различные методы тыка туда-сюда... &lt;em&gt;(ссылка на GitHub и на готовый продукт - в конце статьи)...&lt;/em&gt;&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982402/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982402#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 09:59:17 GMT</pubDate>
+      <dc:creator>Sm1GhT</dc:creator>
+      <category>chatgpt</category>
+      <category>sora</category>
+      <category>взлом</category>
+      <category>водяные знаки</category>
+      <category>watermark</category>
+      <category>github</category>
+      <category>open source</category>
+      <category>reverse-engineering</category>
+    </item>
+    <item>
+      <title>Купил старые ноутбуки, починил, заскучал и решил написать о своём хобби кому-то ещё кроме кошки</title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/982396/</guid>
+      <link>https://habr.com/ru/articles/982396/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982396</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/390/9eb/baf/3909ebbaf3013539fadf054cc4a9f422.jpg" /&gt;&lt;p&gt;Ровно три года назад, в декабре 2022 года, у меня появилось новое хобби -- увлечение старыми ноутбуками. А произошло это так. Однажды мне надоело таскать в рюкзаке туда-сюда единственный ноутбук, и я решил приобрести второй рабочий ноутбук, чтобы никуда без острой необходимости его не носить. Сначала я подбирал недорогой новый. Как оказалось, почти все современные ноутбуки не удовлетворяли моим требованиям в плане оснащения. Мне нужны были: порты Ethernet и HDMI и слот для полноформатных карт памяти SD. При этом процессор хоть и не топовый, но и не лоукост. Ну и дизайн хотелось, чтоб был приятный, а не как у бюджетников 2010 года. Вариантов было мало, а цена высокой. Решил искать подходящий среди подержанных в основном под привычными мне марками Acer и Fujitsu по приемлемой цене. И если среди Acer, Toshiba это были хоть и старые, но с более-менее актуальными характеристиками, то среди Fujitsu, Lenovo это были модели на Core 2 Duo и старее. Попадались и ретро, вызвавшие во мне ностальгические чувства к LifeBook, ведь одним первых ноутбуков, купленных мною новыми, был как-раз этой компании. В общем, купил я сначала один, потом другой... В основном покупал по низу рынка, полуживые и на запчасти. По возможности приводил в порядок и восстанавливал работоспособность. Иногда приобретал экземпляры и в хорошем состоянии. А в прошедшем, 2025 году, я завёл канал в Telegram и начал рассказывать о своём хобби на Хабр. Но это не всё. Думаю, что можно подвести итоги и немного рассказать о планах.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982396/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982396#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 09:44:53 GMT</pubDate>
+      <dc:creator>easimonenko</dc:creator>
+      <category>fujitsu</category>
+      <category>fujitsu-siemens</category>
+      <category>lifebook</category>
+      <category>fmv-biblo</category>
+      <category>emacs</category>
+      <category>emacs-lisp</category>
+      <category>gowin</category>
+    </item>
+    <item>
+      <title>Горите в оптимизации, RISC-V ваши дрова не спасёт</title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/yadro/articles/980546/</guid>
+      <link>https://habr.com/ru/companies/yadro/articles/980546/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=980546</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/3d5/f05/e23/3d5f05e23986b96e3ecc534992ab6479.jpg" /&gt;&lt;p&gt;Графический формат JPEG уменьшает размер изображений без особо заметной для глаза потери качества — упрощая тем самым их хранение и передачу. Студенты из БГУИР — Артём Подгайский, Сергей Буйвид, Юрий Наскевич и Дмитрий Степанчук — в &amp;nbsp;в рамках Зимней школы RISC-V&amp;nbsp;&lt;a href="https://yadro.com/?utm_source=habr&amp;amp;utm_medium=referral&amp;amp;utm_campaign=riscv-school-020126&amp;amp;utm_referrer=habr.com" rel="noopener noreferrer nofollow"&gt;YADRO&lt;/a&gt; изучили работу декодера JPEG для архитектуры RISC-V, нашли пути для его оптимизации и далее расскажут о своем проекте.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/980546/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=980546#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 09:12:09 GMT</pubDate>
+      <dc:creator>yadro_team (YADRO)</dc:creator>
+      <category>jpeg</category>
+      <category>графика</category>
+      <category>графические форматы</category>
+      <category>risc-v</category>
+    </item>
+    <item>
+      <title>Китайский Эпифон Лес Пол за копейки: что можно ожидать от дешёвой имитации легенды</title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/ruvds/articles/950196/</guid>
+      <link>https://habr.com/ru/companies/ruvds/articles/950196/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=950196</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/987/877/361/987877361424ca3d2174715e74183a20.jpg" /&gt;&lt;p&gt;Привет, Хабр! Многие гитаристы мечтают получить в подарок на зимние праздники &lt;strong&gt;настоящий Лес Пол&lt;/strong&gt;. На фото как раз такой, полноправно носящий на пере грифа золотое факсимиле автографа изобретателя этой культовой модели электрогитары — виртуозного &lt;em&gt;Лестера Уильяма Полсфусса&lt;/em&gt;.&lt;/p&gt;&lt;p&gt;Но это не американский &lt;em&gt;Гибсон,&lt;/em&gt; а китайский &lt;em&gt;Эпифон,&lt;/em&gt; причём из самой дешёвой линейки &lt;em&gt;Special.&lt;/em&gt; В этот праздничный январский день мы сможем подробно рассмотреть и услышать все достоинства и недостатки данного ширпотребовского изделия, а также изучим возможности его усовершенствования.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/950196/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=950196#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 09:01:07 GMT</pubDate>
+      <dc:creator>Lunathecat (RUVDS.com)</dc:creator>
+      <category>ruvds_статьи</category>
+      <category>электрогитара</category>
+      <category>электрогитары</category>
+      <category>гитаризм</category>
+      <category>звукосниматели</category>
+      <category>звукосниматель</category>
+      <category>магниты</category>
+      <category>допиливание</category>
+      <category>китайские поделки</category>
+      <category>тёплый ламповый шелест</category>
+    </item>
+    <item>
+      <title>Ностальгируем по тем временам, когда код писали без чек-листов из 50 пунктов</title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/982382/</guid>
+      <link>https://habr.com/ru/articles/982382/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982382</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/c31/f5a/a3d/c31f5aa3d9109b39a41142ce2f94cefa.png" /&gt;&lt;p&gt;Предыдущие части:&lt;br&gt;&lt;a href="https://habr.com/ru/articles/978892/" rel="noopener noreferrer nofollow"&gt;Как мы программировали в 80-е или Путь в тысячу ли начинается с первого шага программы.&lt;/a&gt;&lt;br&gt;&lt;a href="https://habr.com/ru/articles/981280/" rel="noopener noreferrer nofollow"&gt;Как мы программировали в 90-е. Часть #01&lt;/a&gt;&lt;/p&gt;&lt;p&gt;После института я распределился в КБ в Омске. Аббревиатура «КБ» в советские времена – это конструкторское бюро (какова эпоха – таково и КБ!), попасть в КБ было престижно, а в закрытое – т.е., секретное – особенно. Закрытые предприятия назывались ящиками – все отправления на него адресовались на почтовый ящик с определённым номером.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982382/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982382#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 08:51:18 GMT</pubDate>
+      <dc:creator>SunWindSmile</dc:creator>
+      <category>базы_данных</category>
+      <category>клиппер</category>
+      <category>лексикон</category>
+      <category>supercalc</category>
+    </item>
+    <item>
+      <title>GitHub-профиль — теперь с блэкджеком и анимациями, но всё равно без коммитов</title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/982376/</guid>
+      <link>https://habr.com/ru/articles/982376/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982376</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/e9e/841/034/e9e84103435aba147bb8c278530d5975.png" /&gt;&lt;p&gt;&lt;sub&gt;"""&lt;/sub&gt;&lt;br&gt;&lt;em&gt;&lt;sub&gt;Никто меня не понял:&lt;br&gt;ни школа, ни семья,&lt;br&gt;мой удар учитель помнит&lt;br&gt;и не зря.&lt;/sub&gt;&lt;/em&gt;&lt;br&gt;&lt;sub&gt;"""&lt;/sub&gt;&lt;br&gt;&lt;sub&gt;_(с) из Арии_&lt;/sub&gt;&lt;/p&gt;&lt;p&gt;Изначально пост создал для западной аудитории не скрывая локацию автора и опубликовал его на Reddit в сообществе &lt;code&gt;визуализация данных&lt;/code&gt;. Успех &amp;amp; фиаско в одну ночь. Понедельник начинается в субботу: меньше чем за сутки, выделяющаяся оригинальностью в топике, публикация набрала свыше 50К просмотров, но спустя скоротечное время препринт был удалён модераторами онлайн сообщества, т.к. персональную визуализацию данных можно публиковать лишь по понедельникам по североамериканскому восточному времени.&lt;/p&gt;&lt;p&gt;Суть: в 2016г. приобрёл gps-трекер, записал свою первую спортивную активность adventure outdoors при помощи гаджета и выгрузил её в спортивную соцсеть. Спустя 10 лет, в честь знаменательной даты, запросил полный бэкап тренировок из облака и распарсил gpx-данные...&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982376/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982376#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 08:24:19 GMT</pubDate>
+      <dc:creator>ne555</dc:creator>
+      <category>gpx</category>
+      <category>strava</category>
+    </item>
+    <item>
+      <title>ИИ поможет нам понять, почему мы такие ностальгические дилетанты в литературе</title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/982366/</guid>
+      <link>https://habr.com/ru/articles/982366/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982366</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/95d/4d5/ebd/95d4d5ebd50e6c303e7582ad250788d9.jpg" /&gt;&lt;p&gt;С детства люблю две вещи: читать и небольшие прикладные исследования. В этой статье я покажу простой метод разбора наших литературных вкусов с помощью ИИ. Почему нам нравятся эти книги? Что в них такого для нас? А о том, как деконструировать кинематографические предпочтения, &lt;a href="https://habr.com/ru/articles/982198/" rel="noopener noreferrer nofollow"&gt;рассказано тут&lt;/a&gt;.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982366/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982366#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 08:05:47 GMT</pubDate>
+      <dc:creator>AI_Foxmaster</dc:creator>
+      <category>искусственный интеллект</category>
+      <category>психология</category>
+      <category>психоанализ</category>
+    </item>
+    <item>
+      <title>Настроил метеостанцию на коленке, потому что нет денег на нормальное железо</title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/timeweb/articles/981768/</guid>
+      <link>https://habr.com/ru/companies/timeweb/articles/981768/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=981768</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/8d3/9e4/4b0/8d39e44b0320612918e70ad34a3211ad.jpg" /&gt;&lt;p&gt;Привет, &lt;em&gt;Хабр!&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Пожалуй, одним из первых устройств, которые подключаются к умному дому (конечно, после модуля управления освещением), является домашняя метеостанция. Вот и мне на новом месте и в новом умном доме потребовалось реализовать данное устройство. Но есть одна проблема: находясь вдалеке от своей домашней лаборатории, я имею минимальный набор инструментов и лишен таких благ цивилизации, как лазерный мини-ЧПУ для изготовления плат и 3D-принтер. Поэтому для реализации проекта будем работать по старинке, в режиме жесткого DIY-хардкора (или в режиме «Очумелых ручек»). Впереди много&amp;nbsp;картинок и термоклея, так что включайте ваши паяльники и поехали!&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/981768/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=981768#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 08:05:22 GMT</pubDate>
+      <dc:creator>CyberexTech (Timeweb Cloud)</dc:creator>
+      <category>esp8266</category>
+      <category>homeassistant</category>
+      <category>метеостанция</category>
+      <category>сделай сам</category>
+      <category>iot</category>
+      <category>умный дом</category>
+      <category>arduino</category>
+      <category>arduino ide</category>
+      <category>разработка электроники</category>
+      <category>timeweb_статьи</category>
+    </item>
+    <item>
+      <title>Samsung выпустил очередной процессор, потому что так надо</title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/selectel/articles/979986/</guid>
+      <link>https://habr.com/ru/companies/selectel/articles/979986/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=979986</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/c47/a43/1cc/c47a431cc295acb998e2490c0a651aaf.jpg" /&gt;&lt;p&gt;Компания Samsung недавно &lt;a href="https://semiconductor.samsung.com/processor/mobile-processor/exynos-2600/" rel="noopener noreferrer nofollow"&gt;показала&lt;/a&gt; Exynos 2600. На минуточку, это первый в мире мобильный процессор, созданный по 2-нанометровому техпроцессу. Конечно, эти нанометры маркетинговые, но все же новинка — заметный шаг вперед для отрасли. Samsung первой довела новый техпроцесс до серийного мобильного чипа, тогда как Apple, Qualcomm и MediaTek пока что используют 3-нанометровые решения в массовых продуктах. Exynos 2600, скорее всего, станет основой для смартфонов Galaxy S26, релиз которых ожидается в феврале 2026 года. Чем интересен этот чип, как Samsung удалось вырваться вперед и какие вопросы остаются? Давайте разберемся.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/979986/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=979986#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 08:05:22 GMT</pubDate>
+      <dc:creator>TrexSelectel (Selectel)</dc:creator>
+      <category>selectel</category>
+      <category>samsung</category>
+      <category>процессоры</category>
+      <category>чипы</category>
+    </item>
+    <item>
+      <title>Больше про AI в финтехе, потому что модно и приносит просмотры</title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/technokratos/articles/981948/</guid>
+      <link>https://habr.com/ru/companies/technokratos/articles/981948/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=981948</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/643/be9/cdd/643be9cdd3e0658494493b62568920d2.png" /&gt;&lt;p&gt;Искусственный интеллект в 2025 году окончательно закрепился как одна из&amp;nbsp; ключевых тем финтех-рынка. Он влиял не только на продуктовые решения, но и на стратегии компаний, партнерства и повестку отраслевых дискуссий.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.fintechfutures.com/ai-in-fintech/2025-top-five-ai-stories-of-the-year" rel="noopener noreferrer nofollow"&gt;FinTech Futures &lt;/a&gt;подвел итоги года и разобрал пять самых заметных AI-новостей — от крупных коллабораций и кадровых назначений до нестандартных интеграций и появления агентных AI-систем.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/981948/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=981948#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 08:00:19 GMT</pubDate>
+      <dc:creator>ssshhhuuurrr (Технократия)</dc:creator>
+      <category>ии</category>
+      <category>финтех</category>
+      <category>искусственный интеллект</category>
+      <category>ии-агенты</category>
+      <category>банки</category>
+    </item>
+    <item>
+      <title>Кибератаки на медиков: потому что кто-то забыл, что больницы — это тоже системы, которые можно взломать</title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/beget/articles/980956/</guid>
+      <link>https://habr.com/ru/companies/beget/articles/980956/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=980956</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/60e/ade/1fc/60eade1fcbd1b2415ae9243836fdd578.jpg" /&gt;&lt;p&gt;Сегодня медицина невозможна без цифровых систем, которые хранят наши данные и обеспечивают работу больниц.&lt;/p&gt;&lt;p&gt;В этой статье я предлагаю обсудить вопрос кибербезопасности в сфере здравоохранения.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/980956/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=980956#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 07:05:13 GMT</pubDate>
+      <dc:creator>naslou1 (Beget)</dc:creator>
+      <category>защита персональных данных</category>
+      <category>ransomware</category>
+      <category>программы-вымогатели</category>
+      <category>утечки данных</category>
+      <category>кии</category>
+      <category>apt-атаки</category>
+      <category>wannacry</category>
+      <category>IoMT</category>
+      <category>raas</category>
+    </item>
+    <item>
+      <title>Я не узнал уроков прошлого и воскресил плагин, который должен был умереть давным-давно</title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/981132/</guid>
+      <link>https://habr.com/ru/articles/981132/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=981132</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/ab6/ac8/06b/ab6ac806bf6a2d6ae6184f7853bda3a7.png" /&gt;&lt;p&gt;Всем привет! Недавно я опубликовал &lt;a href="https://habr.com/ru/articles/969386/" rel="noopener noreferrer nofollow"&gt;статью&lt;/a&gt;, в которой сказал что она будет последней по &lt;a href="https://plugins.jetbrains.com/plugin/22370-easy-maven" rel="noopener noreferrer nofollow"&gt;Easy Maven&lt;/a&gt; т.к. все что можно я уже делегировал Maven - импорт проекта, запуск тасков, анализ зависимостей. Но недавнее обилие багов в IDEA 2025.3 связанных как с &lt;a href="https://youtrack.jetbrains.com/issue/IDEA-383438" rel="noopener noreferrer nofollow"&gt;зависанием&lt;/a&gt; так и &lt;a href="https://youtrack.jetbrains.com/issue/IDEA-383647" rel="noopener noreferrer nofollow"&gt;повышенным&lt;/a&gt; потреблением памяти Maven проектами, окунуло меня в баг трекер IDEA, где я нашел много похожих проблем, которые также затрагивают и мавен индексы. Помню как меня самого это раздражало, когда IDEA чуть ли не при каждом открытии, &lt;a href="https://youtrack.jetbrains.com/issue/IDEA-322847/Massive-.m2-scan" rel="noopener noreferrer nofollow"&gt;начинает&lt;/a&gt; сканировать локальный репозиторий. Про это даже писали в комментариях - где ответ был один - &lt;a href="https://youtrack.jetbrains.com/issue/IDEA-322847/Massive-.m2-scan#focus=Comments-27-7687356.0-0" rel="noopener noreferrer nofollow"&gt;отключить это&lt;/a&gt;. Плюс недавно один из &lt;a href="https://t.me/c/1718440735/947" rel="noopener noreferrer nofollow"&gt;постов&lt;/a&gt; в тг канале (спасибо за это &lt;a href="https://habr.com/ru/users/javadev/" rel="noopener noreferrer nofollow"&gt;@javadev&lt;/a&gt;), еще больше убедил меня в том, что так дальше жить нельзя и я решил поправить проблему поиска зависимостей так как я ее вижу - не изобретать велосипед, а делегировать поиск туда, где это уже реализовано. Ведь как известно: самый лучший код - тот который ты не написал. Посмотрим что из этого вышло.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/981132/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=981132#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 06:30:52 GMT</pubDate>
+      <dc:creator>grisha9</dc:creator>
+      <category>maven</category>
+      <category>idea</category>
+      <category>plugin</category>
+      <category>easy maven</category>
+    </item>
+    <item>
+      <title>Ещё один математик решил заняться не своим делом и посчитать паттерны на кубике Рубика</title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/982336/</guid>
+      <link>https://habr.com/ru/articles/982336/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982336</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/813/ab4/00c/813ab400c93f2b2705f188c3c07ab2de.jpg" /&gt;&lt;p&gt;Кубик Рубика — это не только головоломка, но и математическая модель с пространством состояний порядка 43 квинтиллионов конфигураций и богатой симметрией. Из практической задачи создания двусторонних мозаик на кубике у меня возникла идея зеркальных двусторонних инверсивных паттернов (MDSI). В статье я формализую этот тип симметрии и вывожу формулу, позволяющую определить число уникальных паттернов.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982336/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982336#habracut"&gt;Решаем задачу о паттернах...&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 06:01:07 GMT</pubDate>
+      <dc:creator>academicmaslow</dc:creator>
+      <category>логические задачи</category>
+      <category>комбинаторика</category>
+      <category>теория групп</category>
+      <category>кубик рубика</category>
+      <category>занимательные задачи</category>
+      <category>задачки</category>
+      <category>мозаика из кубиков рубика</category>
+      <category>рубиккубизм</category>
+      <category>двусторонняя мозаика</category>
+      <category>rubik</category>
+    </item>
+    <item>
+      <title>Написали про финансы после Нового Года, потому что KPI требует</title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/982350/</guid>
+      <link>https://habr.com/ru/articles/982350/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982350</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/e13/365/ee2/e13365ee22405f0a0841196b00c3eec1.jpg" /&gt;&lt;p&gt;&lt;strong&gt;Аннотация&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Бум-бум-бум — отзвучали куранты. Бенгальские огни догорели, мандарины съедены, а праздничное настроение постепенно растворяется в утреннем кофе. Наступает момент истины: счет в банке вызывает легкую панику, а мысль о рабочих задачах кажется невыполнимой миссией. Знакомо?  &lt;/p&gt;&lt;p&gt;2 января 2026 года — не время для паники или пустых обещаний. Это идеальный момент для холодного, математического аудита последствий. Проблема не в отсутствии силы воли, а в одновременной атаке двух системных «врагов»:&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Финансовый провал.&lt;/strong&gt;&amp;nbsp;Ваша функция&amp;nbsp;&lt;img class="formula inline" source="Budget(t)" alt="Budget(t)" src="https://habrastorage.org/getpro/habr/formulas/1/1f/1f1/1f19af5c95cd4cbf1752d1ee5e0dc763.svg" width="72" height="16"&gt;&amp;nbsp;достигла локального (а для кого-то и глобального) минимума. Остаток стремится к нулю или ушёл в отрицательную область, а входящий поток средств пока не восстановился.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Энергетическая яма.&lt;/strong&gt;&amp;nbsp;Ваша функция&amp;nbsp;&lt;img class="formula inline" source="Energy(t)" alt="Energy(t)" src="https://habrastorage.org/getpro/habr/formulas/f/fe/fe4/fe43616b05ab099ff5598d1062908012.svg" width="72" height="16"&gt;&amp;nbsp;находится в глубоком провале. Режим сна сбит, когнитивные способности притуплены праздничной энтропией, а мотивация асимптотически приближается к оси абсцисс.&lt;/p&gt;&lt;p&gt;Традиционный подход — сделать  для себе строгие рамки («с понедельника на диету и в спортзал!») — является попыткой решить задачу скачкообразным изменением граничных условий. История и теория систем показывают, что такие методы часто приводят к срывам и новым минимумам.&lt;/p&gt;&lt;p&gt;Сегодня мы не будем заниматься самокопанием или ставить эмоциональные цели. Мы поступим как инженеры и математики. Мы построим в MATLAB простую, но наглядную&amp;nbsp;&lt;strong&gt;динамическую модель двойного восстановления&lt;/strong&gt;. Её цель — наглядно показать, как разные стратегии управления расходами&amp;nbsp;&lt;img class="formula inline" source="Spend(t)" alt="Spend(t)" src="https://habrastorage.org/getpro/habr/formulas/6/61/612/61271d211aa7e3fe4898394cc6ff0b4b.svg" width="64" height="16"&gt;&amp;nbsp;проводят нас из начальной точки&amp;nbsp;&lt;code&gt;[B(0) ≈ 0, E(0) &amp;lt;&amp;lt; 1]&lt;/code&gt;&amp;nbsp;к целевой области «финансовая стабильность + работоспособность» за минимальное время и с наименьшими психологическими потерями.&lt;/p&gt;&lt;p&gt;Мы промоделируем три сценария, найдем компромиссную кривую и получим математически обоснованный ответ на вопрос: «Как правильно выходить из праздников?».&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982350/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982350#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 05:23:07 GMT</pubDate>
+      <dc:creator>DigitalPsychiatry</dc:creator>
+      <category>MATLAB</category>
+      <category>Моделирование</category>
+      <category>оптимизация</category>
+      <category>Динамическая система</category>
+      <category>Личные финансы</category>
+      <category>продуктивность</category>
+      <category>Восстановление</category>
+      <category>Новый год</category>
+      <category>Функционал качества</category>
+      <category>визуализация данных</category>
+    </item>
+    <item>
+      <title>STAC спасёт геоинформатику или просто добавит новый формат в хаос данных о Земле, который вам скоро придётся изучать, чтобы не отстать</title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/978758/</guid>
+      <link>https://habr.com/ru/articles/978758/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=978758</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/536/5a1/f50/5365a1f50d9770565a8af22e20d174a3.png" /&gt;&lt;p&gt;&lt;strong&gt;Информационный хаос в геопространственной сфере&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Задумывались ли вы, как в эпоху, когда мы можем мгновенно найти любую информацию в интернете, поиск спутникового снимка конкретного поля, леса или города за определённую дату до сих пор напоминает квест? Всего несколько лет назад мир геопространственных данных представлял собой &lt;strong&gt;хаотичный ландшафт&lt;/strong&gt; изолированных архивов, каждый со своим уникальным форматом данных, структурой папок, проприетарным API и системой метаданных. Чтобы проанализировать один и тот же регион по данным разных спутников, учёным и инженерам приходилось тратить до 80% времени не на сам анализ, а на "добычу" и приведение данных к единому виду. Эта &lt;strong&gt;проблема интероперабельности&lt;/strong&gt; (совместимости) была главным тормозом для развития целых направлений: от оперативного мониторинга чрезвычайных ситуаций до долгосрочного изучения климата.&lt;/p&gt;&lt;p&gt;Именно из этой "боли" родилась идея &lt;strong&gt;SpatioTemporal Asset Catalog (STAC) — Каталога пространственно-временных активов&lt;/strong&gt;. Изначально это была не инициатива госорганов или крупных корпораций, а &lt;strong&gt;практический ответ сообщества разработчиков и аналитиков&lt;/strong&gt; на ежедневные сложности.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Материал будет интересен молодым специалистам в области ДЗЗ — будущим геоинформатикам, экологам, data scientist'ам. Знакомство с STAC перестаёт быть опциональным, это становится&amp;nbsp;&lt;/em&gt;&lt;strong&gt;&lt;em&gt;базовой цифровой грамотностью&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;&amp;nbsp;в области геоинформатики и наук о Земле, таким же необходимым инструментом, как, например, умение работать с SQL для backend-разработчика. Это язык, на котором будет говорить «цифровая копия» нашей планеты, и те, кто освоит его первыми, получат ключ к решению самых амбициозных задач XXI века.&lt;/em&gt;&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/978758/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=978758#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 04:00:56 GMT</pubDate>
+      <dc:creator>Sterpa</dc:creator>
+      <category>STAC</category>
+      <category>GeoJSON</category>
+      <category>COG</category>
+      <category>item</category>
+      <category>catalog</category>
+      <category>collection</category>
+      <category>GeoTIFF</category>
+      <category>Elasticsearch</category>
+      <category>PostGIS</category>
+    </item>
+    <item>
+      <title>Всё равно теперь ничего не бесплатно</title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/982348/</guid>
+      <link>https://habr.com/ru/articles/982348/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982348</link>
+      <description>&lt;p&gt;1 января 2026 года многие произведения перешли в общественное достояние. Охрана авторских прав окончилась для многих замечательных авторов — учёных, литераторов, деятелей культуры, журналистов.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982348/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982348#habracut"&gt;Для кого именно?&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 02:29:35 GMT</pubDate>
+      <dc:creator>PereslavlFoto</dc:creator>
+      <category>свободные знания</category>
+      <category>свободные лицензии</category>
+      <category>общественное достояние</category>
+      <category>википедия</category>
+      <category>creative commons</category>
+      <category>сезон open source</category>
+    </item>
+    <item>
+      <title>Пишем бесполезный пет-проект на Godot 4, потому что каникулы некуда девать</title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/982324/</guid>
+      <link>https://habr.com/ru/articles/982324/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982324</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/5ba/5e2/7c8/5ba5e27c8d3bd6ea3f35825a3a009761.png" /&gt;&lt;p&gt;Если на минуту задуматься, великая это вещь - колесо. Человечество значит разок его попробовало и все. Подсело. Теперь почти ни дня без колеса. Завертелось всё, закрутилось, как хоровод вокруг новогодней ёлки.&amp;nbsp;&lt;/p&gt;&lt;p&gt;Так и я намедни сделал для семейных развлечений свою вариацию на тему игры «Поле чудес», а в поле чудес кто главный герой? Нет, нет, отнюдь не «импозантный мужчина в усах». Я имел в виду – красавец барабан. А барабан это что? Правильно, барабан – колесо. Поэтому, один раз научившись вращать двухмерное колесо в игре на движке Godot я уже не смог остановиться. Захотелось мне это колесо еще где-нибудь использовать на благо прогрессивного человечества.&lt;/p&gt;&lt;p&gt;А тут как раз каникулы длинные нарисовались. И чтобы не было соблазна все выходные сидеть в теплых светодиодных лучах монитора, я сделал простенькое колесо фортуны, которое поможет мне с выбором занятия на день.&lt;/p&gt;&lt;p&gt;И как всегда готов поделится результатом с вами.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982324/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982324#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 00:53:44 GMT</pubDate>
+      <dc:creator>BosonBeard</dc:creator>
+      <category>godot</category>
+      <category>godotengine</category>
+      <category>gdscript</category>
+      <category>api</category>
+      <category>афиша</category>
+      <category>Приложение</category>
+      <category>новый год</category>
+      <category>Колесо</category>
+      <category>Игра</category>
+    </item>
+    <item>
+      <title>Книга о схемотехнике вышла во втором издании, и теперь автору нужно продвигать её любым способом</title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/982346/</guid>
+      <link>https://habr.com/ru/articles/982346/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982346</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/bf9/c35/ecf/bf9c35ecf2697239cbd2bc4b5f10c28c.jpg" /&gt;&lt;p&gt;&lt;em&gt;Ранее публиковалась &lt;/em&gt;&lt;a href="https://habr.com/p/963490/" rel="noopener noreferrer nofollow"&gt;&lt;em&gt;новость&lt;/em&gt;&lt;/a&gt;&lt;em&gt; о выходе книги в свет. Теперь настало время поговорить о книге более обстоятельно.&lt;/em&gt;&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982346/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982346#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 00:53:08 GMT</pubDate>
+      <dc:creator>Vladimir_Rapava</dc:creator>
+      <category>искусство схемотехники</category>
+      <category>книга</category>
+      <category>хоровиц</category>
+      <category>хейс</category>
+      <category>абрамс</category>
+      <category>литература техническая</category>
+      <category>электроника</category>
+      <category>электроника для начинающих</category>
+    </item>
+    <item>
+      <title>Написал мессенджер, потерял сон и обрёл баги</title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/982344/</guid>
+      <link>https://habr.com/ru/articles/982344/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982344</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/341/b10/25f/341b1025f966144cab31f17e87f6bb63.jpg" /&gt;&lt;p&gt;Всем привет! На связи снова тот самый парень, которому «коту делать нечего».&lt;/p&gt;&lt;p&gt;В прошлой статье я рассказывал, как психанул и за три недели на коленке собрал свой собственный мессенджер &lt;strong&gt;&lt;a href="https://furymsg.ru" rel="noopener noreferrer nofollow"&gt;Fury Messenger&lt;/a&gt;&lt;/strong&gt; — с шифрованием, маскировкой под мусорный трафик и полным отсутствием привязки к номеру телефона. Изначально план был надежен, как швейцарские часы: сделать удобную «болталку» для себя, жены и пары друзей, чтобы никакой DPI не был страшен, а интерфейс радовал глаз киберпанковской эстетикой.&lt;/p&gt;&lt;p&gt;Но что-то пошло не так... В хорошем смысле!&lt;/p&gt;&lt;p&gt;Я совершенно не ожидал, что моя поделка обретет такую любовь и популярность у абсолютно незнакомых мне людей! Хабр, ты — сила. Огромное спасибо всем энтузиастам, кто ломанулся тестировать приложение. Вы не просто качали APK, вы реально помогали: присылали логи, тыкали носом в баги и писали теплые слова, от которых хочется кодить даже в 4 утра.&lt;/p&gt;&lt;p&gt;Именно благодаря вашему мощному фидбеку проект не заглох, а наоборот — оброс мясом. За последнее время я выкатил пачку обновлений (с версии 0.45 до 0.61), и вот во что превратился наш уютный чатик.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982344/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982344#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Thu, 01 Jan 2026 23:42:16 GMT</pubDate>
+      <dc:creator>REPLAY_5</dc:creator>
+      <category>Fury</category>
+      <category>мессенджер</category>
+      <category>telegram</category>
+      <category>whatsapp</category>
+    </item>
+    <item>
+      <title>Не KPI, так спорт: как не облениться в любительской команде</title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/982320/</guid>
+      <link>https://habr.com/ru/articles/982320/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982320</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/e62/6f5/3ca/e626f53ca091a584c2f05f4f8e225057.jpg" /&gt;&lt;p&gt;В этой статье я преследую три цели: показать еще разок тем, кто не сталкивался с математической оптимизацией, как она может пригодиться при выборе из большого числа вариантов на примере назначения членам команды ролей для решения некоторых командных задач; проговорить для сообщества людей, работающих над развитием алтимата (или других процессов, функциональными единицами которых являются команды людей), некоторые полезные последствия стандартизации; ну и повысить узнаваемость алтимата, раз я по стечению обстоятельств над его развитием тоже работаю.  &lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982320/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982320#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Thu, 01 Jan 2026 21:11:42 GMT</pubDate>
+      <dc:creator>anotherMelnikov</dc:creator>
+      <category>управление командой</category>
+      <category>любительский спорт</category>
+      <category>дискретная оптимизация</category>
+      <category>математическое программирование</category>
+      <category>менеджмент</category>
+    </item>
+    <item>
+      <title>Профессионалу важно знать, как правильно подключить выключатель, поэтому напишем язык для инструкций, которых никто не будет читать</title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/982338/</guid>
+      <link>https://habr.com/ru/articles/982338/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982338</link>
+      <description>&lt;p&gt;Давайте представим такую ситуацию: мы рисуем электрическую схему квартиры, в которойесть разные выключатели. Естественно, с&amp;nbsp;точки зрения профессионала, какой‑то из&amp;nbsp;использованных выключателей мы подключили неправильно. Более того, часто профессионал может посмотреть не&amp;nbsp;на&amp;nbsp;всю схему, а&amp;nbsp;только на&amp;nbsp;подключение выключателя, и сказать, что&amp;nbsp;да&amp;nbsp;— ошибка. Почему?&lt;/p&gt;&lt;p&gt;Давайте посмотрим на выключатели со схем 1-7. Понятно, что выключатель №1 должен быть подключён по двум контактам (1 и 2), иначе это ошибка. А вот выключатель на схеме 2 (напомню, что штриховая вертикальная линия — это механическая кнопка, замыкающая сразу несколько контактов) должен быть подключён хотя бы по одной из пар 1-2 и 2-4. То есть, можно представить себе ситуацию, когда у нас нет в наличии простых выключателей со схемой 1, но есть ящик выключателей №2. Тогда получается, что мы должны подключать не все контакты, а только часть.&lt;/p&gt;&lt;p&gt;Давайте напишем маленький язык DSL, которого будет минимально достаточно для того, чтобы написать инструкцию для проверки.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982338/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982338#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Thu, 01 Jan 2026 21:04:07 GMT</pubDate>
+      <dc:creator>vkni</dc:creator>
+      <category>dsl</category>
+    </item>
+    <item>
+      <title>Кого это волнует, но парень сделал радиоуправляемую машинку размером с пальчик, потому что просто так</title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/963138/</guid>
+      <link>https://habr.com/ru/articles/963138/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=963138</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/860/bb1/988/860bb19888b381aa376313ad97e76d84.png" /&gt;&lt;p&gt;Здравствуй, Хабр! В этой статье я хочу поделиться своим опытом модификации популярной машинки в масштабе 1/64. Цель модификации&amp;nbsp;— сделать машинку радиоуправляемой. В&amp;nbsp;качестве пульта управления будет использоваться android телефон. В&amp;nbsp;статье рассмотрим три основных этапа: разработка встраиваемого программного обеспечения для&amp;nbsp;управления приводом поворота колес и ходового мотора, проектирование шасси и приложение для&amp;nbsp;телефона.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/963138/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=963138#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Thu, 01 Jan 2026 20:37:12 GMT</pubDate>
+      <dc:creator>avtopolet</dc:creator>
+      <category>ESP32</category>
+      <category>ble</category>
+      <category>bluetooth</category>
+      <category>шаговые двигатели</category>
+    </item>
+    <item>
+      <title>Физика всё стерпит, даже этот вопрос</title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/982334/</guid>
+      <link>https://habr.com/ru/articles/982334/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982334</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/098/7d8/9c1/0987d89c1c497c47f25831ddc4fc1bd8.png" /&gt;&lt;p&gt;Разработан единый взгляд на математические способы формулировки физических законов и найдена возможность взглянуть на них с единой точки зрения, что может быть полезно в некоторых вопросах, например, специальной теории относительности и аналитической механике.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982334/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982334#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Thu, 01 Jan 2026 20:16:26 GMT</pubDate>
+      <dc:creator>AndrewPeuny</dc:creator>
+      <category>законы физики</category>
+      <category>уравнения</category>
+      <category>формулировка</category>
+      <category>лагранжева механика</category>
+      <category>вариационный принцип</category>
+      <category>функции</category>
+    </item>
+    <item>
+      <title>Ещё один способ продать вам прошлогодний HDMI по новой цене</title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/982328/</guid>
+      <link>https://habr.com/ru/articles/982328/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982328</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/450/417/4d0/4504174d019ce4ec028f7def29c7299d.jpg" /&gt;&lt;p&gt;Парадокс: SPICE отлично справляется с рабочим столом, но спотыкается на видео. Статичный документ — чёткий, быстрый, экономный по трафику. Включили ролик на YouTube — и всё поплыло.&lt;/p&gt;&lt;p&gt;Display Channel — это два разных мира в одном канале. Image Mode: независимое сжатие каждой изменившейся области, умное кэширование, глобальный словарь для повторяющихся элементов интерфейса. Stream Mode: попытка поймать видеопоток и пережать его на лету.&lt;/p&gt;&lt;p&gt;Детекция видео по косвенным признакам. MJPEG из 2009 года как дефолт. GStreamer как путь к H.264. И вечный компромисс между «красиво» и «быстро».&lt;/p&gt;&lt;p&gt;Разбираю анатомию Display Channel — от QXL-команд до финального рендеринга. Вторая статья серии.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982328/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982328#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Thu, 01 Jan 2026 19:31:36 GMT</pubDate>
+      <dc:creator>lapinsa42</dc:creator>
+      <category>SPICE</category>
+      <category>VDI</category>
+      <category>виртуализация</category>
+      <category>удалённый рабочий стол</category>
+      <category>протоколы</category>
+      <category>image-based</category>
+      <category>cloud desktop</category>
+    </item>
+    <item>
+      <title>На MIDI.ru умерло целое сообщество, но статистика осталась, так что можно полюбопытствовать</title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/982326/</guid>
+      <link>https://habr.com/ru/articles/982326/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982326</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/cab/1ce/81d/cab1ce81de1b001cf6b0c49ec505d6d5.png" /&gt;&lt;p&gt;Когда-то сайт &lt;a href="http://MIDI.ru" rel="noopener noreferrer nofollow"&gt;MIDI.ru&lt;/a&gt; собрал целое сообщество авторов.&lt;/p&gt;&lt;p&gt;Под конец своего существования сайт содержал около 60 тыс. композиций в разных жанрах и их обсуждения с оценками.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982326/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982326#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Thu, 01 Jan 2026 19:26:37 GMT</pubDate>
+      <dc:creator>ZvoogHub</dc:creator>
+      <category>audio</category>
+      <category>midi</category>
+      <category>аудио</category>
+      <category>музыка</category>
+    </item>
+    <item>
+      <title>Next.js до 15 версии говно кодит стили на динамических импортах, теперь и вы можете узнать почему</title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/982322/</guid>
+      <link>https://habr.com/ru/articles/982322/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982322</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/eea/f87/2d5/eeaf872d5cf661fdf762a5333f84a3d6.png" /&gt;&lt;p&gt;Баг с модульными стилями на динамически импортируемых компонентах в Next.js до 15 версии и немного о том, как работают стили в старых версиях Next.js.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982322/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982322#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Thu, 01 Jan 2026 19:16:21 GMT</pubDate>
+      <dc:creator>dufrein2013</dc:creator>
+      <category>nextjs</category>
+      <category>ssr</category>
+      <category>css модули</category>
+      <category>dynamic import</category>
+    </item>
+    <item>
+      <title>LLM научилась врать, а мы теперь будем разбираться почему это вообще хорошо</title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/982312/</guid>
+      <link>https://habr.com/ru/articles/982312/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982312</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/fc3/637/e61/fc3637e61d6765d1d7a3f7e5d3738e34.jpg" /&gt;&lt;p&gt;Иногда, задавая нейронке один вопрос, неожиданно получаешь ответ на какой-нибудь другой, тоже интересный.&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982312/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982312#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Thu, 01 Jan 2026 18:00:02 GMT</pubDate>
+      <dc:creator>AI_Foxmaster</dc:creator>
+      <category>искусственный интеллект</category>
+      <category>галлюцинации</category>
+      <category>bias</category>
+    </item>
+    <item>
+      <title>Ещё одна попытка впрыснуть жизнь в российский IT, где всё кроме Яндекса и Сбера не существует</title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/bothub/articles/982310/</guid>
+      <link>https://habr.com/ru/companies/bothub/articles/982310/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=982310</link>
+      <description>&lt;img src="https://habrastorage.org/getpro/habr/upload_files/906/e4e/94c/906e4e94ce4e8a9c4dc734fa67bb2e89.jpg" /&gt;&lt;p&gt;Когда речь заходит об искусственном интеллекте в России, первыми на ум приходят технологические гиганты, такие как Яндекс с его нейросетями и голосовым помощником Алисой и Сбер с масштабными разработками вроде GigaChat и Kandinsky. Эти компании широко известны, и их продукты формируют общественное мнение о возможностях нейросетей. Однако за этим впечатляющим фасадом скрывается гораздо более сложная и динамичная система, которая уже сегодня меняет реальный бизнес, решая практические задачи для организаций из самых разных сфер.&lt;/p&gt;&lt;p&gt;В данной статье мы расскажем о малоизвестных инструментах технологического рынка, в каких сферах они стали незаменимыми и как именно их решения меняют правила для малого, среднего и крупного бизнеса в России.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Приятного прочтения! :)&lt;/em&gt;&lt;/p&gt; &lt;a href="https://habr.com/ru/articles/982310/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=982310#habracut"&gt;Читать далее&lt;/a&gt;</description>
+      <pubDate>Thu, 01 Jan 2026 17:52:31 GMT</pubDate>
+      <dc:creator>mefdayy (BotHub)</dc:creator>
+      <category>ии</category>
+      <category>ии и машинное обучение</category>
+      <category>ии-сервисы</category>
+      <category>российские сервисы</category>
+      <category>яндекс</category>
+      <category>сбер</category>
+      <category>ии помощники</category>
+      <category>GigaChat</category>
+    </item>
+  </channel>
+</rss>
