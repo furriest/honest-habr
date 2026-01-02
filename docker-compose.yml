@@ -1,6 +1,6 @@
-version: '3.8'
 services:
   honest-habr:
+    container_name: honest-habr
     build: .
     volumes:
       - .:/app/data

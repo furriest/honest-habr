@@ -129,7 +129,7 @@ async def main_async():
 
     # Загрузка базы обработанных статей
     articles = {}
-    if os.path.exists(ARTICLES_FILE):
+    if os.path.exists(os.path.join('/app/data',ARTICLES_FILE)):
         try:
             with open(os.path.join('/app/data',ARTICLES_FILE), 'r', encoding='utf-8') as f:
                 articles = json.load(f)

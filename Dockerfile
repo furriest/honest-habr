@@ -1,5 +1,5 @@
 # Используем базовый образ Python 3.11 slim
-FROM python:3.11-slim
+FROM python:3.12-slim
 
 # Устанавливаем рабочую директорию
 WORKDIR /app
@@ -20,7 +20,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Создаем cron-файл для запуска скрипта каждую полночь
 # Указываем cd в /app для правильной рабочей директории
-RUN echo "0 0 * * * cd /app && python honest-habr.py >> /var/log/cron.log 2>&1" > /etc/cron.d/my-cron-job
+RUN echo "5 * * * * cd /app && /usr/local/bin/python ./honest-habr.py" > /etc/cron.d/my-cron-job
 
 # Даем права на выполнение cron-файла
 RUN chmod 0644 /etc/cron.d/my-cron-job
@@ -31,5 +31,5 @@ RUN crontab /etc/cron.d/my-cron-job
 # Создаем файл лога и даем права на запись
 RUN touch /var/log/cron.log && chmod 666 /var/log/cron.log
 
-# Запускаем cron на переднем плане (не нужно tail)
-CMD ["cron", "-f"]
+# Запускаем cron в foreground (это правильный способ для Docker)
+CMD ["cron", "-f", "-L", "/dev/stdout"]
