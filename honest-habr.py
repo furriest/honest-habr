@@ -131,7 +131,7 @@ async def main_async():
     articles = {}
     if os.path.exists(ARTICLES_FILE):
         try:
-            with open(ARTICLES_FILE, 'r', encoding='utf-8') as f:
+            with open(os.path.join('/app/data',ARTICLES_FILE), 'r', encoding='utf-8') as f:
                 articles = json.load(f)
             logger.info(f"Загружено {len(articles)} ранее обработанных статей.")
         except Exception as e:
@@ -143,7 +143,7 @@ async def main_async():
 
     # Загрузка промпта
     try:
-        with open('prompt.txt', 'r', encoding='utf-8') as f:
+        with open(os.path.join('/app/data','prompt.txt'), 'r', encoding='utf-8') as f:
             prompt_template = f.read()
     except Exception as e:
         logger.error(f"Не удалось загрузить prompt.txt: {e}")
@@ -190,7 +190,7 @@ async def main_async():
     if new_articles:
         articles.update(new_articles)
         try:
-            with open(ARTICLES_FILE, 'w', encoding='utf-8') as f:
+            with open(os.path.join('/app/data/',ARTICLES_FILE), 'w', encoding='utf-8') as f:
                 json.dump(articles, f, ensure_ascii=False, indent=4)
             logger.info(f"Сохранено {len(new_articles)} новых статей в {ARTICLES_FILE}")
         except Exception as e:
@@ -268,7 +268,7 @@ async def main_async():
 
             # Записываем файл чисто и компактно
             tree = ET.ElementTree(root)
-            with open(RSS_OUTPUT_FILE, 'wb') as f:
+            with open(os.path.join('/app/data',RSS_OUTPUT_FILE), 'wb') as f:
                 tree.write(
                     f,
                     encoding='utf-8',
@@ -277,9 +277,9 @@ async def main_async():
                 )
 
             # Убираем лишние пустые строки в конце файла (на всякий случай)
-            with open(RSS_OUTPUT_FILE, 'r', encoding='utf-8') as f:
+            with open(os.path.join('/app/data',RSS_OUTPUT_FILE), 'r', encoding='utf-8') as f:
                 lines = f.readlines()
-            with open(RSS_OUTPUT_FILE, 'w', encoding='utf-8', newline='\n') as f:
+            with open(os.path.join('/app/data',RSS_OUTPUT_FILE), 'w', encoding='utf-8', newline='\n') as f:
                 for line in lines:
                     if line.strip() or (f.tell() > 0 and f.buffer and f.buffer[-1] != b'\n'):
                         f.write(line.rstrip('\n') + '\n')

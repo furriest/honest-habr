@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  honest-habr:
+    build: .
+    volumes:
+      - .:/app/data
+    restart: unless-stopped
